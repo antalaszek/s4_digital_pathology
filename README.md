@@ -59,12 +59,11 @@ The code for the lookahead optimizer (`Lookahead` class in `utils.py`) was taken
 
 ## Citing
 ```
-@misc{fillioux2023structured,
-      title={Structured State Space Models for Multiple Instance Learning in Digital Pathology}, 
-      author={Leo Fillioux and Joseph Boyd and Maria Vakalopoulou and Paul-Henry Cournède and Stergios Christodoulidis},
-      year={2023},
-      eprint={2306.15789},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{fillioux2023structured,
+  title={Structured State Space Models for Multiple Instance Learning in Digital Pathology}, 
+  author={Leo Fillioux and Joseph Boyd and Maria Vakalopoulou and Paul-Henry Cournède and Stergios Christodoulidis},
+  booktitle={Medical Image Computing and Computer Assisted Intervention -- MICCAI 2023},
+  pages={594--604},
+  year={2023}
 }
 ```

@@ -4,8 +4,8 @@ model:
   model_dim: 512
   state_dim: 32
 data:
-  data_path: data/camelyon16
-  folds_path: folds/camelyon16
+  data_path: data/linz
+  # folds_path: folds/camelyon16
   n_classes: 2
   input_dim: 1024
   fold: 0
@@ -18,4 +18,4 @@ training:
   patience: 10
   max_epochs: 200
   loss: CrossEntropyLoss
-  save_path: outputs/camelyon16
+  save_path: outputs/linz
